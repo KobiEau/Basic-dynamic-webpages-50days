@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 *{
     box-sizing: border-box;
 }
@@ -85,89 +84,6 @@ h1.heading{
     .panel:nth-of-type(5),
     .panel:nth-of-type(6){
         display: none;
+
     }
-=======
-*{
-    box-sizing: border-box;
-}
-
-
-h1.heading{
-  font-family: "Arvo", cursive;
-  font-size: 30;
-  text-shadow: 3px 0 rgb(201, 206, 43);
-  text-align: center;
-  position: relative;
-  text-decoration: underline;
-}
-
-.parentcontainer{
-    font-family: 'Roboto',sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    overflow: hidden;
-    margin: 0;
-}
-
-.container{
-    display: flex;
-    /* flex-direction: column; */
-    width: 90vw;
-}
-
-.panel{
-    background-size:auto 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 90vh;
-    padding: 0;
-    border-radius: 60px;
-    color: white;
-    flex: 0.9;
-    margin: 10px;
-    position: relative;
-    transition: flex 0.7s ease-in-out;
-}
-
-.panel h3{
-    font-size: 24px;
-    position: absolute;
-    bottom: 20px;
-    right: 150px;
-    margin: 0;
-    opacity: 0;
-    
-}
-
-.panel.active{
-    flex: 5;
-    border-radius: 110px;
-    margin: 0;
-    
-}
-
-.panel.active h3{
-    opacity: 1;
-    transition: opacity 0.3s ease-in 0.4s;
-}
-
-@media(max-width:480px){
-    .container{
-        width: 100vw;
-    }
-    .panel h3{
-        font-size: 24px;
-    position: absolute;
-    bottom: 20px;
-    left: 80px;
-    margin: 0;
-    }
-    .panel:nth-of-type(5),
-    .panel:nth-of-type(6){
-        display: none;
-    }
->>>>>>> c80b7c9150b6589211a715506c55698279865305
 }
